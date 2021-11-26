@@ -1,0 +1,63 @@
+.container {
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    /*Bỏ dấu gạch chân */
+    color: gray;
+    padding-right: 15px;
+}
+
+a:hover {
+    background-color: gray;
+    color: honeydew;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+img {
+    width: 1000px;
+}
+
+.sangphai {
+    float: right;
+}
+
+
+/* body */
+
+.imgcn {
+    width: 100px;
+    height: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/* Tai nguyen */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+td:hover {
+    color: blue;
+}
