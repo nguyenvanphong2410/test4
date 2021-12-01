@@ -1,18 +1,37 @@
 .container {
     margin: 0px auto;
     max-width: 1000px;
+    margin-top: -15px;
 }
 
-ul {
-    display: flex;
+header {
+    background-color: rgb(236, 232, 232);
+}
+
+.clearfix {
+    clear: both;
+}
+
+ul li {
     list-style: none;
+    padding-top: 5px;
+}
+
+#anh {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+ul#main_menu li {
+    float: left;
 }
 
 a {
-    text-decoration: none;
     /*Bỏ dấu gạch chân */
+    text-decoration: none;
     color: gray;
-    padding-right: 15px;
+    padding: 6px 15px;
 }
 
 a:hover {
@@ -25,7 +44,7 @@ h2 {
     color: red;
 }
 
-img {
+#banner {
     width: 1000px;
 }
 
@@ -37,27 +56,78 @@ img {
 /* body */
 
 .imgcn {
-    width: 100px;
-    height: 150px;
     padding-left: 70px;
     padding-right: 70px;
+    float: left;
+    width: 100px;
+    height: 150px;
 }
 
 
 /* Tai nguyen */
 
 table {
+    padding-top: 50px;
+}
+
+table,
+td {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
+tr:nth-child(even) {
+    background-color: #f0ede9;
+}
+
 td,
 th {
+    width: auto;
     text-align: left;
     padding: 8px;
 }
 
 td:hover {
     color: blue;
+}
+
+
+/* --------Giới Thiệu------------------------------------------------------------- */
+
+.gioithieu_tt {
+    float: right;
+    margin-right: 210px;
+}
+
+#img_gioithieu {
+    padding-left: 180px;
+}
+
+
+/*--------GÓP Ý------------------------------------------------------------------- */
+
+.form_gopy {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+button {
+    float: right;
+    margin-right: 150px;
+    background-color: rgb(73, 163, 73);
+    height: 30px;
+    width: 70px;
+}
+
+
+/* -----FOOTER --------------------------------------------------------------------*/
+
+.footer_f {
+    padding-top: 150px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightslategray;
 }
